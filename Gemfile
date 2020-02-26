@@ -7,5 +7,5 @@ gem "jekyll-gist"
 gem "jekyll-paginate"
 
 group :test do
-  gem "html-proofer"
+  gem "html-proofer", ">= 3.10.0"
 end
