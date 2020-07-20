@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-gem "jekyll"
+gem "jekyll", ">= 4.0.0"
 gem "jekyll-gist"
 gem "jekyll-paginate"
 
