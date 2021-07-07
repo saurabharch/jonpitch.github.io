@@ -2,10 +2,10 @@
 
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "jekyll-gist"
+gem "jekyll", ">= 3.8.4"
+gem "jekyll-gist", ">= 1.5.0"
 gem "jekyll-paginate"
 
 group :test do
-  gem "html-proofer"
+  gem "html-proofer", ">= 3.9.2"
 end
